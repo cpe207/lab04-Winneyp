@@ -12,7 +12,6 @@ function primeNumber(a) {
     }
   }
 }
-
 const a1 = 10;
 const a2 = 29;
 const a3 = 2;
