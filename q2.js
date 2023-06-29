@@ -1,5 +1,11 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let lengtha = a.length;
+  let text = ``;
+  for (let i = 0; i < lengtha; i++) {
+    let b = a[i] + ``;
+    text = text + b;
+  }
+  return text;
 }
 
 const a1 = [1, 2, 3];
