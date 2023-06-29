@@ -1,5 +1,14 @@
 function typeChecker(a, b) {
   /* Your code here */
+  let atype = typeof a;
+  let btype = typeof b;
+  if (atype === "string" && btype === "string") {
+    return "I LOVE YOU";
+  } else if (atype === "number" && btype === "number") {
+    return a + b;
+  } else {
+    return "NOT MATCHED";
+  }
 }
 
 //Test cases
